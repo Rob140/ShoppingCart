@@ -1,0 +1,18 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background-color: #3309ef;
+  color: #fff;
+}
+.title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #fff;
+  cursor: pointer;
+}
+.cart {
+  font-size: 1.5rem;
+  cursor: pointer;
+}
