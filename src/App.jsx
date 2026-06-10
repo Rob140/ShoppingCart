@@ -15,7 +15,7 @@ function App() {
     createRoutesFromElements(
       <>
         <Route path="/" element={<ProductList />} />
-        <Route path="/prod:id" element={<ProductDetail />} />
+        <Route path="/prod/:id" element={<ProductDetail />} />
       </>,
     ),
   );

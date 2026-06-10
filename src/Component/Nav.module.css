@@ -1,5 +1,6 @@
 .nav {
   display: flex;
+  width: 100%;
   justify-content: space-between;
   align-items: center;
   padding: 1rem;
@@ -15,4 +16,42 @@
 .cart {
   font-size: 1.5rem;
   cursor: pointer;
+}
+.cartCount {
+  position: absolute;
+  top: -15px;
+  right: 15px;
+  background-color: red;
+  color: white;
+  border-radius: 50%;
+  padding: 0.2rem 0.5rem;
+  font-size: 0.8rem;
+}
+.relativ {
+  position: relative;
+}
+.cartContainer {
+  position: absolute;
+  top: 60px;
+  right: 0px;
+  z-index: 1;
+  height: auto;
+  width: 250px;
+  background-color: blue;
+  margin: 20px;
+  border-radius: 20px;
+  text-align: center;
+  color: white;
+  border: 3px solid black;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.cartItemImage {
+  width: 50px;
+  height: auto;
+  /* object-fit: cover; */
+}
+.cartItem {
+  margin: 10px;
 }

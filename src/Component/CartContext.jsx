@@ -3,7 +3,7 @@ import { useState, useEffect } from "react";
 
 const CartContext = ({ children }) => {
   const [items, setItems] = useState([]);
-  const [products, setProducts] = useState(null);
+  const [products, setProducts] = useState([]);
 
   useEffect(() => {
     async function fetchData() {
