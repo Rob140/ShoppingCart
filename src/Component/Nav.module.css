@@ -21,7 +21,7 @@
 .cartCount {
   position: absolute;
   top: -15px;
-  right: 15px;
+  right: 30px;
   background-color: red;
   color: white;
   border-radius: 50%;

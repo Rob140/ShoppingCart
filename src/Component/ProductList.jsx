@@ -56,7 +56,7 @@ const ProductList = () => {
           </div>
         ))}
       </div>
-      <div className="btns">
+      <div className={productList.btn}>
         <button
           onClick={() => setCurrentpage((pre) => pre - 1)}
           disabled={currentpage === 1}
@@ -64,15 +64,18 @@ const ProductList = () => {
           zrück
         </button>
         {/* paginatoon number */}
-        {convertNamber.map((con) => (
-          <button
-            key={con}
-            onClick={() => paginate(con)}
-            disabled={currentpage === con}
-          >
-            {con}
-          </button>
-        ))}
+        <div className={productList.pragCon}>
+          {convertNamber.map((con) => (
+            <button
+              key={con}
+              onClick={() => paginate(con)}
+              disabled={currentpage === con}
+              className={productList.pagNamber}
+            >
+              {con}
+            </button>
+          ))}
+        </div>
         <button
           onClick={() => setCurrentpage((pre) => pre + 1)}
           disabled={currentpage === total}
