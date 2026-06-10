@@ -72,11 +72,11 @@ button {
     box-shadow 0.2s ease;
 }
 
-button:hover:not(:disabled) {
+/* button:hover:not(:disabled) {
   transform: translateY(-1px);
   background-color: var(--primary-strong);
   box-shadow: 0 10px 24px rgba(51, 9, 239, 0.18);
-}
+} */
 
 button:disabled {
   background: #d1d5db;

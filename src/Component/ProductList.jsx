@@ -8,6 +8,8 @@ const ProductList = () => {
   const { products, items, addtocart, removeFromcart, totalPrise } =
     useContext(ContextName);
   const [currentpage, setCurrentpage] = useState(1);
+  const [search, setSearch] = useState("");
+
   // const [max, setMax] = useState();
   const itemperpage = 4;
   const total = products.length / itemperpage;
@@ -22,11 +24,24 @@ const ProductList = () => {
   function paginate(convertedn) {
     setCurrentpage(convertedn);
   }
+
+  //   filter elements by search
+  const filtereditem = curentItems.filter((list) =>
+    list.title.toLowerCase().includes(search.toLowerCase()),
+  );
   return (
     <>
+      {/* filter by search */}
+      <input
+        type="text"
+        value={search}
+        onChange={(e) => setSearch(e.target.value)}
+        name=""
+        id=""
+      />
       <h2>Products</h2>
       <div className={productList.container}>
-        {curentItems?.map((product) => (
+        {filtereditem?.map((product) => (
           <div key={product.id} className={productList.product}>
             <img
               src={product.image}
