@@ -1,4 +1,3 @@
-import React from "react";
 import { useContext, useState } from "react";
 import { ContextName } from "./Context";
 import productList from "./ProductList.module.css";

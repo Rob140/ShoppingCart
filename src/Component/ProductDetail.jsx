@@ -1,4 +1,3 @@
-import React from "react";
 import { useContext } from "react";
 import { ContextName } from "./Context";
 import { useParams } from "react-router-dom";
