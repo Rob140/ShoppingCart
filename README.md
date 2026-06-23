@@ -16,4 +16,16 @@ Note: This will impact Vite dev & build performances.
 ## Expanding the ESLint configuration
 
 If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-Frontend developer
+
+ Concepts
+ 
+1 Context API with UseContext
+2 React Router with Daynamic pagedetail routing
+3 Product filter by search Name
+4 pagination products
+5 responsive Layout
+6 Add to cart
+
+
+
+           
