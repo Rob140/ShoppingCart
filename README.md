@@ -27,9 +27,24 @@ If you are developing a production application, we recommend using TypeScript wi
 
 4 pagination products
 
-5 responsive Layout
+5 responsive Layout with css Grid
 
-6 Add to cart
+6 Add to cart with useState
+
+
+Used Technologie
+
+1 React.js (JSX)
+
+2 React Router 
+
+3 Git and GitHab
+
+4 CSS
+
+5 vercel for deployment
+
+
 
 
 
