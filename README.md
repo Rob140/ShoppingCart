@@ -20,10 +20,15 @@ If you are developing a production application, we recommend using TypeScript wi
  Concepts
  
 1 Context API with UseContext
+
 2 React Router with Daynamic pagedetail routing
+
 3 Product filter by search Name
+
 4 pagination products
+
 5 responsive Layout
+
 6 Add to cart
 
 
