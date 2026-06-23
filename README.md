@@ -33,7 +33,7 @@ Project Concepts
 6 Add to cart with useState
 
 
-Used Project  Technologies
+Used Project  Technologies 
 
 
 
