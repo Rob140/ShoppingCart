@@ -10,8 +10,6 @@ const Hero = () => {
       <div className={styles.heroContent}>
         {/* Linke Spalte: Text-Inhalt */}
         <div className={styles.textColumn}>
-          <span className={styles.badge}>Neu: Version 2.0 ist da</span>
-
           <h1 className={styles.title}>
             Bauen Sie die Zukunft <br />
             <span className={styles.gradientText}>
