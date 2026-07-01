@@ -1,5 +1,5 @@
 .nav {
-  /* position: fixed; */
+  position: fixed;
   display: flex;
   width: 100%;
   justify-content: space-between;
@@ -59,4 +59,8 @@
   border-radius: 20px;
   padding: 10px;
   color: white;
+}
+.quantity {
+  color: black;
+  margin: 0 10px;
 }

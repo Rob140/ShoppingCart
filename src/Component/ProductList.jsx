@@ -35,8 +35,8 @@ const ProductList = () => {
         type="text"
         value={search}
         onChange={(e) => setSearch(e.target.value)}
-        name=""
-        id=""
+        placeholder="Search products..."
+        className={productList.searchInput}
       />
       <h2>Products</h2>
       <div className={productList.container}>

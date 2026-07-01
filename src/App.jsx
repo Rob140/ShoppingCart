@@ -9,6 +9,7 @@ import {
 } from "react-router-dom";
 import ProductList from "./Component/ProductList";
 import ProductDetail from "./Component/ProductDetail";
+import Hero from "./Component/Hero";
 
 function App() {
   const router = createBrowserRouter(
@@ -23,6 +24,7 @@ function App() {
   return (
     <CartContext>
       <Nav />
+      <Hero />
       <RouterProvider router={router} />
     </CartContext>
   );

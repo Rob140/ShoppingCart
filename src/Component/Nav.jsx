@@ -37,7 +37,7 @@ const Nav = () => {
                       <p>${item.price.toFixed(2)}</p>
                       <div className={nav.controls}>
                         <button onClick={() => removeFromcart(item)}>-</button>
-                        <span>{item.quantity}</span>
+                        <span className={nav.quantity}>{item.quantity}</span>
                         <button onClick={() => addtocart(item)}>+</button>
                       </div>
                     </li>
